@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+
+.about{
+	padding-top: 8rem;
+	font-size: 1.6rem;
+}
+.about h3{
+	font-size: 1.8rem;
+}
+.about .col-md-7{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.about-text *{
+	padding: 0;
+	margin: 0;
+	margin-bottom: 3rem; 
+}
+.last{
+	margin-bottom: 9rem;	
+}
+.about-btn, .about-btn:hover , .about-btn:visited{ 
+	padding: 1rem 6rem;
+	color: #fff;
+	background-color: #ff2b4a;
+	text-decoration: none;
+}
+.workingprocess{
+	background-color: #F6F6F6;
+	padding: 8rem 0;
+	font-size: 1.6rem;
+}
+.workingprocess-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 4rem;
+}
+.workingprocess-text h2{
+	font-size: 4rem;
+	margin-bottom: 3rem;
+}
+.workingprocess .container .row{
+	display: flex;
+	justify-content: space-between;
+}
+.task{
+	background-color: #fff;
+	width: 270px;
+	height: 270px;
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+	justify-content: space-around;
+	text-transform: uppercase;
+	padding:5rem;
+	color: #fff;
+}
+.task i{
+	font-size: 4rem;
+}
+.task-1{
+	background-color: #00C7FE;
+}
+.task-2{
+	background-color: #9159EF;
+}
+.task-3{
+	background-color: #001F53;
+}
+.task-4{
+	background-color: #FF274A;
+}
+.experience-education{
+	color: #fff;
+	padding: 8rem 0;
+	font-size: 1.6rem;
+}
+.experience-education .container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.block{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b637e+0,40637f+100 */
+	background: rgb(107,99,126); /* Old browsers */
+	background: -moz-linear-gradient(45deg,  rgba(107,99,126,1) 0%, rgba(64,99,127,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  rgba(107,99,126,1) 0%,rgba(64,99,127,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  rgba(107,99,126,1) 0%,rgba(64,99,127,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b637e', endColorstr='#40637f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	width: 49%;
+	padding: 5rem;
+	margin: 0;
+}
+.block *{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1.6rem;
+}
+.block h2{
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	margin-bottom: 4rem;
+}
+.line{
+	width: 100%;
+	border-top: 1px solid #fff;
+}
+.latest-work{
+	padding: 8rem 0;
+	font-size: 1.6rem;
+	text-align: center;
+}
+.latest-work *{
+	margin: 0;
+	padding: 0;
+}
+.latest-work h2{
+	font-size: 4rem;
+	margin-bottom: 4rem;
+}
+.latest-work p{
+	margin-bottom: 4rem;
+}
+.latest-work .row{
+	display: flex;
+	justify-content: space-between;
+}
+.sqare{
+	background-color: #ccc;
+	width: 270px;
+	height: 270px;
+	margin-bottom: 2rem; 
+}
+.sqare-5{
+	width: 560px;
+}
+.quote{
+	padding: 8rem 0;
+	font-size: 1.6rem;
+}
+.quote *{
+	margin: 0;
+	padding: 0;
+}
+.cav{
+	margin-bottom: 3rem;
+}
+.description p{
+	margin: 0;
+	margin-bottom:5rem;
+}
+.quote h4{
+	margin-top: 3rem;
+}
+.quote p{
+	width: 40%;
+	margin-top: 1rem;
+}
+.contact{
+	color: #fff;
+	padding: 8rem 0;
+	font-size: 1.6rem;
+	display: flex;
+	justify-content: space-between;
+}
+.contact p{
+	color: #BFC2CD;
+}
+.contact .c1{
+	width: 49%;
+}
+.input{
+	width: 100%;
+	background-color: transparent;
+	border: 1px solid #BFC2CD;
+	padding: 1rem;
+	margin-bottom: 3rem;
+	color: #BFC2CD;
+}
+.c1 h2{
+	margin-bottom: 8rem; 
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+   color: #BFC2CD;
+}
+input[type=submit]{
+	padding: 1rem 6rem;
+	color: #fff;
+	background-color: #ff2b4a;
+	text-decoration: none;
+	border: none;
+	float: right;
+}
+.right-side{
+	width: 49%;
+}
+.right-side .block{
+	width: 100%;
+}
+.c2, .c3{
+	margin-bottom: 2rem;
+}
+.footer{
+	padding: 4rem 0;
+	background-color: #1C1C1C;
+	display: flex;
+	flex-direction: column;
+	color:#6E6E6E;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.4rem;
+}
+.social{
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 1rem;
+}
+.social li:last-child a{
+	border-right: none;
+}
+.social li a{
+	padding: 0;
+	margin: 0;
+	color:#6E6E6E;
+	border-right: 1px solid #6E6E6E;
+	padding: 0 1rem;
+}
+.social li a:hover{
+	color:#FF274A;
+}

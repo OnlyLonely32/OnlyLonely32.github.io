@@ -1,0 +1,60 @@
+html{
+	font-size: 10px;
+}
+body{
+	background-color: #fff;
+}
+
+.bgg{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8c6b7c+0,00697f+42,00697f+55,00697f+55,8c6b7c+100 */
+	background: rgb(140,107,124); /* Old browsers */
+	background: -moz-linear-gradient(45deg,  rgba(140,107,124,1) 0%, rgba(0,105,127,1) 42%, rgba(0,105,127,1) 55%, rgba(0,105,127,1) 55%, rgba(140,107,124,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  rgba(140,107,124,1) 0%,rgba(0,105,127,1) 42%,rgba(0,105,127,1) 55%,rgba(0,105,127,1) 55%,rgba(140,107,124,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  rgba(140,107,124,1) 0%,rgba(0,105,127,1) 42%,rgba(0,105,127,1) 55%,rgba(0,105,127,1) 55%,rgba(140,107,124,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c6b7c', endColorstr='#8c6b7c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.no-overlay{
+	background-color: #00CCC1;	
+}
+.header{
+	height: 700px;
+	color:#fff;
+}
+.header .head{
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header .head .navmenu{
+	border: 2px solid #fff;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 7px;
+}
+.header .head .navmenu .menu{
+	border-top: 2px solid #fff;
+	margin:0;
+	padding: 0;
+}
+.header .text{
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.header .text h1{
+	font-size: 7rem;
+	text-transform: uppercase;
+	border-top: 1px solid #fff; 
+	border-bottom: 1px solid #fff;
+	padding-bottom: 1rem; 
+	margin-bottom: 2rem; 
+}
+.header .text h3{
+	font-size: 2.08rem;
+}
